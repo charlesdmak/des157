@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+  width: 550px;
+  font-size: 69px;
+  color: green;
+  padding: 25px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+body {
+  width: 1000px;
+  background-image: url(images/nugs.jpg);
+  background-repeat: repeat;
+  margin: auto;
+  font-family: helvetica, sans-serif;
+}
+
+article {
+  float: left;
+  padding-left: 30px;
+}
+
+p {
+  position: relative;
+  left: 50px;
+  background-color: rgba(100, 0, 0, .7);
+  color: white;
+  float: left;
+  padding: 30px;
+  width: 500px;
+  line-height: 25px;
+}
+
+label {
+  text-align: left;
+  position: relative;
+  font-family: 'Pangolin', cursive;
+  color: pink;
+  font-size: 20px;
+  width: 200px;
+  display: block;
+}
+
+form {
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(150, 70, 0, .8);
+}
+
+div {}
+
+footer {
+  position: fixed;
+  bottom: 5px;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  left: 0px;
+}
