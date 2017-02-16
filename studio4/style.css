@@ -49,8 +49,21 @@ table {
 
 /* add your custom css here */
 
+header{
+  position: absolute;
+  font-size: 50px;
+  font-family: avenir, sans-serif;
+  color: grey;
+  top:5%;
+  left:30%;
+  font-weight: bold;
+  width: 600px;
+  margin: auto;
+}
+
+
 body {
-  background-color: beige;
+  background-color: white;
 }
 
 main {
@@ -61,7 +74,7 @@ main {
 article {
   position: relative;
   top: 100px;
-  padding-top: 10px;
+  padding-top: 46px;
 }
 
 h2 {
@@ -75,29 +88,44 @@ h2 {
 
 section {
   position: relative;
-  background-color: red;
-  border: 2px solid;
-  border-color: crimson;
-  border-radius: 15%;
+  background-color: grey;
+  border: 4px solid;
+  border-color: white;
+  border-radius: 50%;
   width: 100px;
   height: 100px;
 }
 
-div {
+#popout70, #popout80, #popout90, #popout00 {
   width: 500px;
-  background-color: maroon;
-  height: 100px;
+  z-index: -1;
+  background-color: #ddd;
+  height: 150px;
   position: absolute;
-  border-radius: 15px;
-  border-left: 10px solid;
-  top: 0%;
-  left: 100px;
+  top: -25%;
+  left: 52px;
   display: none;
 }
 
 p {
-  padding-top: 5px;
-  padding-left: 5px;
+  font-family: helvetica, sans-serif;
+  line-height: 25px;
+}
+
+h3 {
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.text{
+  position:absolute;
+  top:-15px;
+  width:500px;
+  color: #777;
+  padding-left: 140px;
+  font-family: helvetica, sans-serif;
 }
 
 footer {
@@ -105,4 +133,63 @@ footer {
   bottom: 0px;
   text-align: center;
   width: 100%;
+}
+
+aside{
+  height:150px;
+  width: 80px;
+  position: absolute;
+  top:-25%;
+  right: 52px;
+  z-index: -1;
+}
+
+#block1{
+    background-color: #550c18;
+}
+
+#block2{
+    background-color: #a53f2b;
+}
+
+#block3{
+    background-color: #dbb3b1;
+}
+
+#block4{
+    background-color: #65a3a2;
+}
+
+img{
+  position: absolute;
+  top:0px;
+  width: 100px;
+  display:none;
+}
+
+audio{
+  position: absolute;
+  left: 140px;
+  top:79px;
+}
+
+section:hover{
+  transition: opacity .25s ease-in-out;
+}
+
+h6{display:none;
+}
+
+.tips{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  padding-top: 25px;
+  padding-left: 15px;
+  background-color: beige;
+  border: 2px;
+  border-radius: 15px;
+  left: 400px;
+  top: 35px;
+  z-index: 2;
 }
