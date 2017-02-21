@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // JavaScript Document
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -41,3 +42,13 @@ ob3.addEventListener("mouseover", function(){
 });
 
 });
+=======
+// JavaScript Document
+
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("DOM fully loaded and parsed");
+
+    // all other js here
+
+});
+>>>>>>> origin/gh-pages
