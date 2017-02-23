@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // JavaScript Document
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -31,6 +30,7 @@ console.log("transition");*/
 
 ob1.addEventListener("mouseover", function(){
   $ob1.velocity("callout.bounce", {stagger:75});
+  console.log("ob1 reading");
 });
 
 ob2.addEventListener("mouseover", function(){
@@ -42,13 +42,3 @@ ob3.addEventListener("mouseover", function(){
 });
 
 });
-=======
-// JavaScript Document
-
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("DOM fully loaded and parsed");
-
-    // all other js here
-
-});
->>>>>>> origin/gh-pages
