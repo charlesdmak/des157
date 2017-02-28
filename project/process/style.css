@@ -21,6 +21,7 @@ h1 {
 }
 
 h2 {
+  padding-top:5px;
   font-size: 30px;
   font-family: serif;
   color: lightgrey;
