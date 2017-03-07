@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* add your custom css here */
+
+html {
+  background: url(images/street.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100vh;
+}
+
+header {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-family: bodoni;
+  font-size: 80px;
+  color: #fff;
+  padding-top: 200px;
+}
+
+h3 {
+  font-family: garamond;
+  font-size: 30px;
+  font-style: italic;
+  color: #fff;
+  margin-top: 15px;
+  padding-bottom: 100px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 5%;
+  width: 100%;
+  color: lightblue;
+  text-align: center;
+  font-size: 30px;
+}
+
+.height300 {
+  height: 300vh;
+}
+
+.height100 {
+  height: 100vh;
+}
+
+section {
+  background-color: #000;
+  text-align: center;
+  position: relative;
+}
+
+#info1 {
+  background-color: purple;
+}
+
+#info2 {
+  background-color: lightgreen;
+}
+
+#info3 {}
+
+.textBlock {
+  height: 50vh;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  padding-top: 200px;
+}
+
+.textBlock p {
+  font-size: 25px;
+  width: 70%;
+  margin: auto;
+}
+
+article {
+  position: relative;
+  top: 150px;
+}
