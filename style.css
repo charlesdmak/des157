@@ -65,3 +65,7 @@ body a:hover {
 body a:active {
   color: pink;
 }
+
+section{
+  padding-bottom: 50px;
+}
