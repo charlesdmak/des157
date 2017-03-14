@@ -69,7 +69,7 @@ h1 {
   padding-top: 200px;
 }
 
-header h1{
+header h1 {
   color: #c51b2f;
 }
 
@@ -118,6 +118,17 @@ section {
   background-color: #4f6b5e;
 }
 
+p {
+  position: relative;
+  font-family: avenir, sans-serif;
+  color: #fff;
+  text-align: center;
+  top: -40px;
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+}
+
 .textBlock {
   height: 40vh;
   width: 100%;
@@ -130,7 +141,8 @@ section {
   font-family: avenir, sans-serif;
   text-align: justify;
   padding-top: 0px;
-  font-size: 25px;
+  color: #000;
+  font-size: 23px;
   width: 70%;
   margin: auto;
 }
@@ -140,57 +152,70 @@ article {
   top: 150px;
 }
 
-#midani1{
+#midani1, #midani2, #midani3 {
   position: relative;
-  top:500px;
+  top: 500px;
 }
 
-.timelinebutton1{
-  position:relative;
+#midani2 {
+  height: 200vh;
+  background: url(images/gunshow.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100vh;
+}
+
+.timelinebutton1 {
+  position: relative;
   z-index: 2;
-  width:40px;
+  width: 40px;
 }
 
-.timelinebutton{
-  position:relative;
+.timelinebutton {
+  position: relative;
   z-index: 2;
-  width:40px;
-  margin-left:100px;
+  width: 40px;
+  margin-left: 100px;
 }
 
-.datbar{
-  width:600px;
+.datbar {
+  width: 600px;
   position: relative;
   top: -31px;
   z-index: 1;
 }
 
-#upButton{
+#upButton {
   position: fixed;
-  top:15px;
-  left:50%;
+  top: 15px;
+  left: 50%;
   z-index: 3;
 }
 
-#downButton{
+#downButton {
   position: fixed;
-  bottom:50px;
-  left:50%;
+  bottom: 50px;
+  left: 50%;
   z-index: 3;
 }
 
-@font-face {
-    font-family: 'webfontregular';
-    src: url('fonts/oratorstd-webfont_1-webfont.woff2') format('woff2'),
-         url('fonts/oratorstd-webfont_1-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.navButton {
+  width: 40px;
+  opacity: .8;
+  margin-left: -20px;
 }
 
 @font-face {
-    font-family: 'dreamers_brushregular';
-    src: url('fonts/sdreamers_brush-webfont.woff2') format('woff2'),
-         url('fonts/dreamers_brush-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'webfontregular';
+  src: url('fonts/oratorstd-webfont_1-webfont.woff2') format('woff2'), url('fonts/oratorstd-webfont_1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dreamers_brushregular';
+  src: url('fonts/sdreamers_brush-webfont.woff2') format('woff2'), url('fonts/dreamers_brush-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
