@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* add your custom css here */
+
+html {
+  background: url(images/street.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100vh;
+}
+
+header {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  font-family: 'dreamers_brushregular', sans-serif;
+  font-size: 80px;
+  color: #fff;
+  padding-top: 200px;
+}
+
+header h1{
+  color: #c51b2f;
+}
+
+h3 {
+  font-family: 'webfontregular', monospace;
+  font-size: 30px;
+  font-style: italic;
+  color: #e9e3cf;
+  margin-top: 15px;
+  padding-bottom: 100px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 5%;
+  width: 100%;
+  color: lightblue;
+  text-align: center;
+  font-size: 30px;
+}
+
+.height300 {
+  height: 250vh;
+}
+
+.height100 {
+  height: 100vh;
+}
+
+section {
+  background-color: #000;
+  text-align: center;
+  position: relative;
+}
+
+#info1 {
+  background-color: #790812;
+}
+
+#info2 {
+  background-color: #052c37;
+}
+
+#info3 {
+  background-color: #4f6b5e;
+}
+
+.textBlock {
+  height: 40vh;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  padding-top: 150px;
+}
+
+.textBlock p {
+  font-family: avenir, sans-serif;
+  text-align: justify;
+  padding-top: 0px;
+  font-size: 25px;
+  width: 70%;
+  margin: auto;
+}
+
+article {
+  position: relative;
+  top: 150px;
+}
+
+#midani1{
+  position: relative;
+  top:500px;
+}
+
+.timelinebutton1{
+  position:relative;
+  z-index: 2;
+  width:40px;
+}
+
+.timelinebutton{
+  position:relative;
+  z-index: 2;
+  width:40px;
+  margin-left:100px;
+}
+
+.datbar{
+  width:600px;
+  position: relative;
+  top: -31px;
+  z-index: 1;
+}
+
+#upButton{
+  position: fixed;
+  top:15px;
+  left:50%;
+  z-index: 3;
+}
+
+#downButton{
+  position: fixed;
+  bottom:50px;
+  left:50%;
+  z-index: 3;
+}
+
+@font-face {
+    font-family: 'webfontregular';
+    src: url('fonts/oratorstd-webfont_1-webfont.woff2') format('woff2'),
+         url('fonts/oratorstd-webfont_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dreamers_brushregular';
+    src: url('fonts/sdreamers_brush-webfont.woff2') format('woff2'),
+         url('fonts/dreamers_brush-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
