@@ -1,0 +1,327 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* add your custom css here */
+
+/*scrollmagic*/
+body{
+  font: 14px/1.5 Helvetica, sans-serif;
+}
+.wrapper{
+  width: 90%;
+  margin 0 5%;
+}
+
+/*rest of css*/
+#head {
+  background: url(images/guns.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100vh;
+  height:100vh;
+}
+
+header {
+  text-align: center;
+  position: relative;
+}
+
+main{
+  position: relative;
+  text-align: center;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'dreamers_brushregular', sans-serif;
+  font-size: 80px;
+  color: #fff;
+  padding-top: 200px;
+}
+
+header h1{
+  color: #c51b2f;
+}
+
+h3 {
+  font-family: 'webfontregular', monospace;
+  font-size: 30px;
+  font-style: italic;
+  color: #e9e3cf;
+  margin-top: 15px;
+  padding-bottom: 100px;
+}
+
+p {}
+
+section {
+  width: 1000px;
+  margin:auto;
+  position: relative;
+  text-align: center;
+
+}
+
+#project1 {
+  background-color: #790812;
+  height: 200vh;
+}
+
+#project1 h3{
+  margin-top: 0px;
+}
+
+#project1 p{
+  margin-top: 50px;
+  display:none;
+}
+
+#timeline{
+  position: relative;
+  text-align: center;
+  margin-top: -50px;
+}
+
+#timeline1, #timeline2, #timeline3, #timeline4, #timeline5{}
+
+#project2 {
+  height: 300vh;
+  background-color: #052c37;
+}
+
+#project2 h3{
+  padding-bottom: 20px;
+}
+
+
+#percentages {
+  width:1100px;
+  margin:auto;
+}
+
+#leftSide{
+  padding-left:100px;
+  padding-right:100px;
+}
+
+#leftSide p{
+  max-width: 400px;
+}
+
+#rightSide{
+  margin-top:70px;
+}
+#rightSide p{
+  color: black;
+}
+
+#impacts{
+  margin-top: 0px;
+}
+
+#impacts p{
+  margin-top: 50px;
+  text-align: left;
+  padding-left:20px;
+  display:none;
+}
+
+#impact1, #impact2, #impact3, #impact4, #impact5{}
+
+#project3 {
+  margin-top:0px;
+  background-color: #4f6b5e;
+  height: 350vh;
+}
+
+#share{
+  margin-top:60vh;
+  width:750px;
+  border-bottom: none;
+}
+
+#share img{
+  height:80px;
+  width:80px;
+}
+
+#project3 p{
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+#change{
+}
+
+#change1, #change2, #change3, #change4, #change5{}
+
+.mainContainer{
+  text-align: center;
+}
+
+.content{}
+
+.project{
+  text-align: center;
+  padding: 200px 0;
+  border-bottom: 1px #000 solid;
+}
+
+#timeline, #percentages, #impacts, #change{opacity:0;
+  transition: all 1s ease-out;
+}
+
+#timeline.fade-in, #percentages.fade-in, #impacts.fade-in, #change.fade-in{
+  opacity:1;
+}
+
+.project img{
+  width: 150px;
+  height: 150px;
+}
+
+.project p{
+  max-width: 200px;
+  color: beige;
+  margin: 0 auto;
+}
+
+.infoBlock{
+  position: relative;
+  padding-right: 50px;
+  float: left;
+  width:200px;
+}
+
+.halfWidth{
+  max-width: 500px;
+  float:left;
+  height: 100vh;
+  margin-bottom: 70px;
+  text-align: left;
+}
+
+#leftSide p{
+  width:500px;
+  font-size: 16px;
+}
+
+.across{
+  margin: auto;
+  max-width: 1000px;
+}
+
+
+.slide{
+  position: relative;
+  background-color: #fff;
+  margin-top: 20px;
+  height: 40px;
+  text-align: right;
+}
+
+#bar1{
+  margin-left:300px;
+  width: 100px;
+}
+
+#bar2{
+  margin-left:100px;
+  width: 300px;
+}
+
+#bar3{
+  width: 400px;
+}
+
+.bcg-parallax{
+  padding: 150px 0;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.bcg{
+  background: url(images/street.jpg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 140%;
+  top:0;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.content-wrapper{
+  width:90%;
+  margin: 0 auto;
+  max-width:1140px;
+  position: relative;
+  z-index: 2;
+}
+
+
+@font-face {
+    font-family: 'webfontregular';
+    src: url('fonts/oratorstd-webfont_1-webfont.woff2') format('woff2'),
+         url('fonts/oratorstd-webfont_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dreamers_brushregular';
+    src: url('fonts/sdreamers_brush-webfont.woff2') format('woff2'),
+         url('fonts/dreamers_brush-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
