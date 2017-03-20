@@ -309,6 +309,13 @@ section {
   z-index: 2;
 }
 
+footer {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+}
+
 
 @font-face {
     font-family: 'webfontregular';
